@@ -138,17 +138,17 @@
        < a href="#contact">Contact</a>
    </nav>
    </header>
-   <div class = " hero" id = "home">
+   <div class ="hero" id ="home">
      <h1> 🚗 Welcome to Shine Car Washing Service </h1>
     <p>Give your Car the Care  It Deserves!</p>
      <a href = "#booking" class ="btn"> Book your Wash </a>
    </div>
-   <section id ="about">
+   <section id ="about" style="background : white;">
      <h2>About Us</h2>
       <p>We Provide Professional Car Washing and Cleaning Services to Keep your Vehicle Clean, Shine and Fresh 
          Our goal is Customer Satisfaction and Quality Services </p>
    </section>
-   <section id="service ">
+   <section id="services">
      <h2>Our Services </h2>
      <div class="cards">
        <div class="card">
@@ -165,16 +165,16 @@
        </div>
        < div class="card">
          <h3>💎Premium Detailing </h3>
-         <p>Special Care and Detailing for your Car</p>
+         <p>Special Care and Detailing for your Car.</p>
        </div>
      </div>
    </section>
-   <section id="price ">
+   <section id="price " style="background: white;">
      <h2>Our Price List </h2>
-     <div class="card">
+     <div class="cards">
        <div class="card">
          <h3>Exterior Wash </h3>
-         <p class ="price ">₹300</p>
+         <p class ="price">₹300</p>
        </div>
        <div class="card">
          <h3>Interior Cleaning </h3>
@@ -192,13 +192,10 @@
    </section>
    <section id="booking">
      <h2>Book your Service </h2>
-     <form onsubmit ="book service (event)">
-       <input id="name" type ="text"
-       placeholder ="your name" required >
-       <input id="phone" type ="tel"
-         placeholder ="phone number "required >
-       <input id ="car" type ="text"
-         placeholder ="car model" required >
+     <form onsubmit ="book service(event)">
+       <input id="name" type ="text" placeholder ="your name" required >
+       <input id="phone" type ="tel" placeholder ="phone number"required >
+       <input id ="car" type ="text" placeholder ="car model" required >
        <select id="service" required >
          <option value = " ">select service </option>
          <option>Exterior Wash </option>
