@@ -198,18 +198,17 @@
        <input id ="car" type ="text" placeholder ="car model" required >
        <select id="service" required >
          <option value = " ">select service </option>
-         <option>Exterior Wash </option>
-         <option>Interior Cleaning </option>
-         <option>Full Car Wash </option>
-         <option>Premium Detailing </option>
+           <option>"Exterior Wash">Exterior Wash</option>
+         <option>"Interior Cleaning">Interior Cleaning</option>
+         <option><"Full Car Wash">Full Car Wash</option>
+         <option>"Premium Detailing">Premium Detailing</option>
        </select>
        <input id ="date" type ="date" required >
-       <textarea id="message"
-         Placeholder ="Additional message"></textarea>
+       <textarea id="message"  Placeholder ="Additional message"></textarea>
        <button type ="submit"> submit Booking</button>
      </form>
    </section>
-   <section id ="contact">
+   <section id ="contact" style="background: white;">
      <h2> Contact Us </h2>
      <p> 📞(123)456-7890: Contact Us for booking </p>
      <p>Working Hours :9AM to 6PM</p>
@@ -219,15 +218,14 @@
      <p> Clean Car, Happy Life! </p>
    </footer>
    <script>
-     functionbook service (event)
-     {
-       event.preventDefault ();
+     function bookService(event){
+       event.preventDefault();
        constdetails ="Car Wash Booking \n Name:"+
-         document. getElementById("name"). value + "\n phone:+
-         document. getElementById("phone"). value + "\n car:"+
-         document. getElementById("car"). value + "\n service:"+
-         document. getElementById("service"). value +\n date:"+
-         document. getElementById("date"). value +\n message :"+
+         document. getElementById("name"). value;
+         document. getElementById("phone"). value;
+         document. getElementById("car"). value;
+         document. getElementById("service"). value;
+         document. getElementById("date"). value;
          document. getElementById("message"). value ;
        alert ("Your booking details are ready!\n\n"+ details );
      }
