@@ -199,7 +199,7 @@
      <form onsubmit ="book service(event)">
        <input id="name" type ="text" placeholder ="your name" required >
        <input id="phone" type ="tel" placeholder ="phone number"required >
-       <input id ="car" type ="text" placeholder ="car model" required >
+       <input id ="carmodel" type ="text" placeholder ="car model" required >
        <select id="service" required >
          <option value = " ">select service </option>
            <option>Exterior Wash</option>
@@ -224,16 +224,16 @@
      <p> Clean Car, Happy Life! </p>
    </footer>
    <script>
-     function bookService(event) {
+     Function BookService(event) {
        event.preventDefault();
      
-         const name =document. getElementById("name").value;
-         const phone =document. getElementById("phone").value;
-         const car =document. getElementById("car").value;
-         const service =document. getElementById("service").value;
-         const date =document. getElementById("date").value;
-         const message =document. getElementById("message").value;
-         const details ="Car wash booking\n\nName:"+name+
+         Const name =document. getElementById("name").value;
+         Const phone =document. getElementById("phone").value;
+         Const car =document. getElementById("car").value;
+         Const service =document. getElementById("service").value;
+         Const date =document. getElementById("date").value;
+         Const message =document. getElementById("message").value;
+         Const details ="Car wash booking\n\nName:"+name+
            "\nphone:"+phone+
             "\ncar Model:"+Car+
             "\nsevice:"+service+
