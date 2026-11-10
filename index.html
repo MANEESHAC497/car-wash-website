@@ -224,17 +224,16 @@
      <p> Clean Car, Happy Life! </p>
    </footer>
    <script>
-     
-     functionbookService(event) {
-     event.preventDefault(event);
+     function bookService(event) {
+     event.preventDefault();
         
-         constname = document.getElementById("name").value;
-         constphone = document.getElementById("phone").value;
-         constcar = document.getElementById("carmodel").value;
-         constservice = document.getElementById("service").value;
-         constdate = document.getElementById("date").value;
-         constmessage = document.getElementById("message").value;
-         constdetails = "Car wash booking\n\nName:"+name+
+         const name = document.getElementById("name").value;
+         const phone = document.getElementById("phone").value;
+         const carmodl = document.getElementById("carmodel").value;
+         const service = document.getElementById("service").value;
+         const date = document.getElementById("date").value;
+         const message = document.getElementById("message").value;
+         const details = "Car wash booking\n\nName:"+name+
            "\nphone:"+phone+
             "\ncar Model:"+Car model+
             "\nsevice:"+service+
