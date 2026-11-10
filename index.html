@@ -196,10 +196,10 @@
    </section>
    <section id="booking">
      <h2>Book your Service </h2>
-     <form onsubmit ="book service(event)">
+     <form onsubmit ="bookService(event)">
        <input id="name" type ="text" placeholder ="your name" required >
        <input id="phone" type ="tel" placeholder ="phone number"required >
-       <input id ="carmodel" type ="text" placeholder ="car model" required >
+       <input id ="carmodel" type ="text" placeholder ="carmodel" required >
        <select id="service" required >
          <option value = " ">select service </option>
            <option>Exterior Wash</option>
@@ -229,7 +229,7 @@
      
          const name = document.getElementById("name").value;
          const phone = document.getElementById("phone").value;
-         const car = document.getElementById("car model").value;
+         const car = document.getElementById("carmodel").value;
          const service = document.getElementById("service").value;
          const date = document.getElementById("date").value;
          const message = document.getElementById("message").value;
