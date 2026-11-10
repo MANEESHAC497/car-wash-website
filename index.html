@@ -225,23 +225,25 @@
    </footer>
    <script>
      function bookService(event) {
-     event.preventDefault();
-        
-         const name = document.getElementById("name").value;
-         const phone = document.getElementById("phone").value;
-         const carmodl = document.getElementById("carmodel").value;
-         const service = document.getElementById("service").value;
-         const date = document.getElementById("date").value;
-         const message = document.getElementById("message").value;
-         const details = "Booking Successful!\n\n"
-            "Name:"+name+
-           "\nphone:"+phone+
-            "\ncar Model:"+carmodel+
-            "\nsevice:"+service+
-            "\ndate:"+date+
-            "\nmessage:"+message;
-            alert(details);
-     }
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const carmodel = document.getElementById("carmodel").value;
+    const service = document.getElementById("service").value;
+    const date = document.getElementById("date").value;
+    const message = document.getElementById("message").value;
+
+    const details = "Booking Successful!\n\n" +
+        "Name: " + name +
+        "\nPhone: " + phone +
+        "\nCar Model: " + carmodel +
+        "\nService: " + service +
+        "\nDate: " + date +
+        "\nMessage: " + message;
+          
+       alert(details);
+      }
      </script>
          </body>
 </html>
